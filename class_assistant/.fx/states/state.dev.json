@@ -1,0 +1,48 @@
+{
+    "solution": {
+        "teamsAppTenantId": "4298d8ad-f905-44bc-984c-bde38753fecd",
+        "subscriptionId": "98b28d55-8faf-4c7e-81a3-79cf486ccf1e",
+        "subscriptionName": "Azure 订阅 1",
+        "tenantId": "2fbbee4b-8581-44c3-9cda-679509dd447a",
+        "needCreateResourceGroup": false,
+        "resourceGroupName": "hanlusource",
+        "location": "eastus",
+        "resourceNameSuffix": "99bbc6",
+        "provisionSucceeded": true
+    },
+    "fx-resource-appstudio": {
+        "tenantId": "4298d8ad-f905-44bc-984c-bde38753fecd",
+        "teamsAppId": "199d546f-9219-47cd-993e-f59a13f6b431",
+        "teamsAppUpdatedAt": 1651507800102
+    },
+    "fx-resource-identity": {
+        "identityName": "todolist99bbc6",
+        "identityResourceId": "/subscriptions/98b28d55-8faf-4c7e-81a3-79cf486ccf1e/resourceGroups/hanlusource/providers/Microsoft.ManagedIdentity/userAssignedIdentities/todolist99bbc6",
+        "identityClientId": "6a216b02-15cf-4c6e-b09b-38528caab4f2"
+    },
+    "fx-resource-azure-sql": {
+        "admin": "hanlu",
+        "sqlResourceId": "/subscriptions/98b28d55-8faf-4c7e-81a3-79cf486ccf1e/resourceGroups/hanlusource/providers/Microsoft.Sql/servers/todolist99bbc6",
+        "sqlEndpoint": "todolist99bbc6.database.windows.net",
+        "databaseName": "todolist99bbc6"
+    },
+    "fx-resource-aad-app-for-teams": {
+        "clientId": "5d98d96a-5502-407f-abe7-82b016affe62",
+        "clientSecret": "{{fx-resource-aad-app-for-teams.clientSecret}}",
+        "objectId": "b4af4c37-b183-4872-a08a-41d6a5c50064",
+        "oauth2PermissionScopeId": "39853183-5c1e-499c-8bb6-ebe8a49c38ea",
+        "tenantId": "4298d8ad-f905-44bc-984c-bde38753fecd",
+        "oauthHost": "https://login.microsoftonline.com",
+        "oauthAuthority": "https://login.microsoftonline.com/4298d8ad-f905-44bc-984c-bde38753fecd",
+        "applicationIdUris": "api://todolist99bbc6tab.z13.web.core.windows.net/5d98d96a-5502-407f-abe7-82b016affe62"
+    },
+    "fx-resource-function": {
+        "functionAppResourceId": "/subscriptions/98b28d55-8faf-4c7e-81a3-79cf486ccf1e/resourceGroups/hanlusource/providers/Microsoft.Web/sites/todolist99bbc6api",
+        "functionEndpoint": "https://todolist99bbc6api.azurewebsites.net"
+    },
+    "fx-resource-frontend-hosting": {
+        "domain": "todolist99bbc6tab.z13.web.core.windows.net",
+        "endpoint": "https://todolist99bbc6tab.z13.web.core.windows.net",
+        "storageResourceId": "/subscriptions/98b28d55-8faf-4c7e-81a3-79cf486ccf1e/resourceGroups/hanlusource/providers/Microsoft.Storage/storageAccounts/todolist99bbc6tab"
+    }
+}

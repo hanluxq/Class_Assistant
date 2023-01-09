@@ -1,0 +1,16 @@
+{
+  "name": "TodoSampleReactTabSql-api",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npx func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/functions": "^1.2.2",
+    "@microsoft/teamsfx": "^0.6.0",
+    "isomorphic-fetch": "^3.0.0",
+    "package.json": "^2.0.1",
+    "tedious": "^9.2.1"
+  }
+}

@@ -1,0 +1,27 @@
+body,
+#root>div {
+    background-color: #F3F2F1;
+}
+.item{
+    margin: 10px 20px;
+    padding-bottom: 10px;
+    display: flex;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #E0E0E0;
+}
+
+.title{
+    padding-right: 20px;
+    width:20%
+}
+
+.text{
+    padding-right: 20px;
+    width:45%
+}
+
+.delete{
+    padding-left: 80px;
+    width:10%
+}

@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+h1 {
+  color: gray;
+}
+.PropName {
+  font-weight: bold;
+  color: #6264A7;
+}
+.Logo {
+  font-size: 45pt;
+  color: #6264A7;
+}
+.Error {
+  color: red;
+}
+
+
+
+.content{
+  top:70px;
+}
+
+.menu{
+  font-size: large;
+  width: 100%;
+}
+
+.menu.is-active{
+  background-color: #2D3D51 !important;
+  color: #18909B !important;
+}
+
+
+.signin{
+  width: 100%;
+}
+
+.announcement{
+  width: 100%;
+}
+
+.homework{
+  width: 100%;
+}
+
+.material{
+  width: 100%;
+}
